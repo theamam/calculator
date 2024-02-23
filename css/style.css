@@ -5,7 +5,10 @@ website: https://theamama.github.io/mycvsite
   margin: 0;
   padding: 0;
 }
-
+@font-face {
+  font-family: yekan;
+  src: url("./fonts/Yekan\ Bakh\ Fa-En\ 06\ Bold.woff");
+}
 html {
   --bg: #f5f6f7;
   --color-text: #9c9c9c;
@@ -35,7 +38,7 @@ html[data-theme="dark"] {
 
 body {
   background: var(--bg);
-  font-family: "vazir";
+  font-family: "yekan";
 }
 
 button {
